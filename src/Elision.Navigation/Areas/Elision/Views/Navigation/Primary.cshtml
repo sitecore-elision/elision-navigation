@@ -1,0 +1,10 @@
+﻿@using Elision.Navigation
+@model NavigationItems<NavigationItem>
+
+@if (Model == null || Model.Items == null || !Model.Items.Any())
+{
+    return;
+}
+<nav class="nav primary-nav">
+    @Html.Partial("MenuItems", Model.Items)
+</nav>

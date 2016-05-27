@@ -1,0 +1,8 @@
+﻿@model Elision.Navigation.NavigationItem
+@if (Model == null || !Model.HasChildren)
+{
+    return;
+}
+<nav class="nav secondary-nav">
+    @Html.Partial("MenuItems", Model.Children.Items)
+</nav>

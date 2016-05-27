@@ -1,0 +1,17 @@
+﻿@model IList<Elision.Navigation.NavigationItem>
+@if (Model == null || !Model.Any())
+{
+    return;
+}
+<ul>
+    @foreach (var item in Model)
+    {
+        <li class="@(item.Level > 0 ? "child" : "primary") @(item.HasChildren ? "has-children" : "") @(item.IsActive ? "active" : "")">
+            <a href="@item.Url" class="@item.CssClass" target="@item.Target">@item.Text</a>
+            @if (item.HasChildren)
+            {
+                @Html.Partial("MenuItems", item.Children.Items)
+            }
+        </li>
+    }
+</ul>

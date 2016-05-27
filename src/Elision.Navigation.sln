@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elision.Navigation", "Elision.Navigation\Elision.Navigation.csproj", "{C70B5BE9-20E7-4FF1-A26A-7F201080EF8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elision.Navigation.Tests", "Elision.Navigation.Tests\Elision.Navigation.Tests.csproj", "{1D820A90-3A03-4C8E-9FBF-C618B66D6A09}"
+EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "Elision.Navigation.Fixtures", "Elision.Navigation.Fixtures\Elision.Navigation.Fixtures.scproj", "{D977BFE2-D239-4298-8AB3-5582C3DFCDAB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C70B5BE9-20E7-4FF1-A26A-7F201080EF8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C70B5BE9-20E7-4FF1-A26A-7F201080EF8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C70B5BE9-20E7-4FF1-A26A-7F201080EF8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C70B5BE9-20E7-4FF1-A26A-7F201080EF8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D820A90-3A03-4C8E-9FBF-C618B66D6A09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D820A90-3A03-4C8E-9FBF-C618B66D6A09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D820A90-3A03-4C8E-9FBF-C618B66D6A09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D820A90-3A03-4C8E-9FBF-C618B66D6A09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D977BFE2-D239-4298-8AB3-5582C3DFCDAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D977BFE2-D239-4298-8AB3-5582C3DFCDAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D977BFE2-D239-4298-8AB3-5582C3DFCDAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D977BFE2-D239-4298-8AB3-5582C3DFCDAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D977BFE2-D239-4298-8AB3-5582C3DFCDAB}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
