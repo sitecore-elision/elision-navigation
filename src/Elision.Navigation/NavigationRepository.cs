@@ -10,7 +10,7 @@ namespace Elision.Navigation
     public interface INavigationRepository<TNavItem> where TNavItem : class, INavigationItem<TNavItem>, new()
     {
         NavigationItems<TNavItem> GetBreadcrumbs(Item contextItem);
-        NavigationItems<TNavItem> GetPrimaryMenu(Item contextItem, int levels = 2);
+        NavigationItems<TNavItem> GetPrimaryMenu(Item contextItem, int levels = 2, Item navigationRoot = null);
         TNavItem GetSecondaryMenu(Item contextItem);
         NavigationItems<TNavItem> GetLinkMenuItems(Item menuRoot, Item contextItem, int levels = 1);
     }
@@ -33,9 +33,13 @@ namespace Elision.Navigation
             return items;
         }
 
-        public NavigationItems<TNavItem> GetPrimaryMenu(Item contextItem, int levels = 2)
+        public NavigationItems<TNavItem> GetPrimaryMenu(Item contextItem, int levels = 2, Item navigationRoot = null)
         {
-            var navigationRoot = GetNavigationRoot(contextItem);
+            if (navigationRoot == null)
+                navigationRoot = GetNavigationRoot(contextItem);
+            if (navigationRoot == null)
+                return null;
+
             var navItems = this.GetChildNavigationItems(navigationRoot, contextItem, 0, levels - 1);
 
             AddRootToPrimaryMenu(navItems, contextItem, navigationRoot);
@@ -58,7 +62,7 @@ namespace Elision.Navigation
 
         public virtual Item GetNavigationRoot(Item contextItem)
         {
-            return contextItem?.GetSite()?.GetStartItem();
+            return contextItem?.Axes?.SelectSingleItem("ancestor-or-self::*[@@name='Home']");
         }
 
         protected virtual void AddRootToPrimaryMenu(NavigationItems<TNavItem> navItems, Item contextItem, Item navigationRoot)
@@ -74,7 +78,7 @@ namespace Elision.Navigation
 
         protected virtual bool IncludeInNavigation(Item item, bool forceShowInMenu = false)
         {
-            if (item.InheritsFrom(Templates.MenuLink.TemplateId))
+            if (item.InheritsFrom(Templates.MenuLink.TemplateId) || item.InheritsFrom(Templates.MenuFolder.TemplateId))
                 return true;
 
             return /*item.HasContextLanguage() &&*/
@@ -109,28 +113,40 @@ namespace Elision.Navigation
 
         protected virtual TNavItem CreateNavigationItem(Item item, Item contextItem, int level, int maxLevel = -1)
         {
-            return new TNavItem
+            var navItem = new TNavItem
             {
                 Item = item,
-                Url = (item.InheritsFrom(Templates.MenuLink.TemplateId) ? item.LinkFieldUrl(Templates.MenuLink.FieldIds.Link) : LinkManager.GetItemUrl(item)),
-                Target = (item.InheritsFrom(Templates.MenuLink.TemplateId) ? item.LinkFieldTarget(Templates.MenuLink.FieldIds.Link) : ""),
-                IsActive = IsItemActive(item, contextItem),
-                Text = item[Templates._Navigable.FieldIds.NavigationText].Or(item.LinkFieldDescription(Templates.MenuLink.FieldNames.Link)).Or(item.DisplayName).Or(item.Name),
                 Level = level,
-                CssClass = item.LinkFieldClass(Templates.MenuLink.FieldNames.Link),
-                Children = GetChildNavigationItems(item, contextItem, level + 1, maxLevel)
+                Children = GetChildNavigationItems(item, contextItem, level + 1, maxLevel),
+                IsActive = IsItemActive(item, contextItem)
             };
+
+            if (item.InheritsFrom(Templates.MenuLink.TemplateId))
+            {
+                navItem.Url = item.LinkFieldUrl(Templates.MenuLink.FieldIds.Link);
+                navItem.Target = item.LinkFieldTarget(Templates.MenuLink.FieldIds.Link);
+                navItem.CssClass = item.LinkFieldClass(Templates.MenuLink.FieldNames.Link);
+                navItem.Text = item.LinkFieldDescription(Templates.MenuLink.FieldNames.Link);
+            }
+            else if (item.InheritsFrom(Templates._Navigable.TemplateId))
+            {
+                navItem.Url = LinkManager.GetItemUrl(item);
+                navItem.Text = item[Templates._Navigable.FieldIds.NavigationText];
+            }
+
+            navItem.Text = navItem.Text.Or(item.DisplayName).Or(item.Name);
+
+            return navItem;
         }
 
         protected virtual NavigationItems<TNavItem> GetChildNavigationItems(Item parentItem, Item contextItem, int level, int maxLevel)
         {
             if (maxLevel < 0 && (level > maxLevel || !parentItem.HasChildren))
-            {
                 return null;
-            }
-            var childItems =
-                parentItem.Children.Where(item => IncludeInNavigation(item))
-                    .Select(i => CreateNavigationItem(i, contextItem, level, maxLevel));
+
+            var childItems = parentItem.Children.Where(item => IncludeInNavigation(item))
+                .Select(i => CreateNavigationItem(i, contextItem, level, maxLevel));
+
             return new NavigationItems<TNavItem>
             {
                 Items = childItems.ToList()

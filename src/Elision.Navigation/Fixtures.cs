@@ -131,6 +131,24 @@ namespace Elision.Navigation
     {
         /// <summary>
         /// <list type="table">
+        ///     <item><term>Template ID:</term><description>{62E29FF9-1428-42D4-B2F9-E83D92AEAB6B}</description></item>
+        ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Navigation/Content/MenuFolder</description></item>
+        /// </list>
+        /// </summary>
+        public struct MenuFolder
+        {
+            public static readonly ID TemplateId = new ID("{62E29FF9-1428-42D4-B2F9-E83D92AEAB6B}");
+            public const string Name = "MenuFolder";
+
+		}
+    }
+}
+namespace Elision.Navigation
+{
+	public partial struct Templates
+    {
+        /// <summary>
+        /// <list type="table">
         ///     <item><term>Template ID:</term><description>{D661EDF4-40A8-4217-9EFA-31395ACB498E}</description></item>
         ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Navigation/Content/MenuLink</description></item>
         /// </list>

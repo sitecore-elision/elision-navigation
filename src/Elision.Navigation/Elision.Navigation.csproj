@@ -41,72 +41,76 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Elision, Version=8.1.31.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore.Elision-redist.8.1.31-pre\lib\net45\Elision.dll</HintPath>
+    <Reference Include="Elision, Version=8.1.36.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sitecore.Elision-redist.8.1.36-pre\lib\net45\Elision.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Elision.CompatibleRenderings, Version=8.1.31.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore.Elision-redist.8.1.31-pre\lib\net45\Elision.CompatibleRenderings.dll</HintPath>
+    <Reference Include="Elision.CompatibleRenderings, Version=8.1.36.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sitecore.Elision-redist.8.1.36-pre\lib\net45\Elision.CompatibleRenderings.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Elision.DynamicPlaceholders, Version=8.1.31.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore.Elision-redist.8.1.31-pre\lib\net45\Elision.DynamicPlaceholders.dll</HintPath>
+    <Reference Include="Elision.DynamicPlaceholders, Version=8.1.36.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sitecore.Elision-redist.8.1.36-pre\lib\net45\Elision.DynamicPlaceholders.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Elision.FieldTokens, Version=8.1.31.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore.Elision-redist.8.1.31-pre\lib\net45\Elision.FieldTokens.dll</HintPath>
+    <Reference Include="Elision.FieldTokens, Version=8.1.36.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sitecore.Elision-redist.8.1.36-pre\lib\net45\Elision.FieldTokens.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Elision.FieldVisibility, Version=8.1.31.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore.Elision-redist.8.1.31-pre\lib\net45\Elision.FieldVisibility.dll</HintPath>
+    <Reference Include="Elision.FieldVisibility, Version=8.1.36.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sitecore.Elision-redist.8.1.36-pre\lib\net45\Elision.FieldVisibility.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Elision.Ioc, Version=8.1.31.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore.Elision-redist.8.1.31-pre\lib\net45\Elision.Ioc.dll</HintPath>
+    <Reference Include="Elision.Ioc, Version=8.1.36.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sitecore.Elision-redist.8.1.36-pre\lib\net45\Elision.Ioc.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Elision.Kernel, Version=8.1.31.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore.Elision-redist.8.1.31-pre\lib\net45\Elision.Kernel.dll</HintPath>
+    <Reference Include="Elision.Kernel, Version=8.1.36.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sitecore.Elision-redist.8.1.36-pre\lib\net45\Elision.Kernel.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Elision.LookupSourceItems, Version=8.1.31.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore.Elision-redist.8.1.31-pre\lib\net45\Elision.LookupSourceItems.dll</HintPath>
+    <Reference Include="Elision.LayoutRenderings, Version=8.1.36.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sitecore.Elision-redist.8.1.36-pre\lib\net45\Elision.LayoutRenderings.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Elision.Mvc, Version=8.1.31.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore.Elision-redist.8.1.31-pre\lib\net45\Elision.Mvc.dll</HintPath>
+    <Reference Include="Elision.LookupSourceItems, Version=8.1.36.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sitecore.Elision-redist.8.1.36-pre\lib\net45\Elision.LookupSourceItems.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Elision.PlaceholderSettings, Version=8.1.31.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore.Elision-redist.8.1.31-pre\lib\net45\Elision.PlaceholderSettings.dll</HintPath>
+    <Reference Include="Elision.Mvc, Version=8.1.36.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sitecore.Elision-redist.8.1.36-pre\lib\net45\Elision.Mvc.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Elision.Publishing, Version=8.1.31.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore.Elision-redist.8.1.31-pre\lib\net45\Elision.Publishing.dll</HintPath>
+    <Reference Include="Elision.PlaceholderSettings, Version=8.1.36.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sitecore.Elision-redist.8.1.36-pre\lib\net45\Elision.PlaceholderSettings.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Elision.Rules, Version=8.1.31.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore.Elision-redist.8.1.31-pre\lib\net45\Elision.Rules.dll</HintPath>
+    <Reference Include="Elision.Publishing, Version=8.1.36.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sitecore.Elision-redist.8.1.36-pre\lib\net45\Elision.Publishing.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Elision.Seo, Version=8.1.31.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore.Elision-redist.8.1.31-pre\lib\net45\Elision.Seo.dll</HintPath>
+    <Reference Include="Elision.Rules, Version=8.1.36.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sitecore.Elision-redist.8.1.36-pre\lib\net45\Elision.Rules.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Elision.TabbedRenderingSelector, Version=8.1.31.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore.Elision-redist.8.1.31-pre\lib\net45\Elision.TabbedRenderingSelector.dll</HintPath>
+    <Reference Include="Elision.Seo, Version=8.1.36.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sitecore.Elision-redist.8.1.36-pre\lib\net45\Elision.Seo.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Elision.Themes, Version=8.1.31.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore.Elision-redist.8.1.31-pre\lib\net45\Elision.Themes.dll</HintPath>
+    <Reference Include="Elision.TabbedRenderingSelector, Version=8.1.36.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sitecore.Elision-redist.8.1.36-pre\lib\net45\Elision.TabbedRenderingSelector.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Elision.UpdateReferences, Version=8.1.31.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore.Elision-redist.8.1.31-pre\lib\net45\Elision.UpdateReferences.dll</HintPath>
+    <Reference Include="Elision.Themes, Version=8.1.36.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sitecore.Elision-redist.8.1.36-pre\lib\net45\Elision.Themes.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Elision.WebEditState, Version=8.1.31.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore.Elision-redist.8.1.31-pre\lib\net45\Elision.WebEditState.dll</HintPath>
+    <Reference Include="Elision.UpdateReferences, Version=8.1.36.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sitecore.Elision-redist.8.1.36-pre\lib\net45\Elision.UpdateReferences.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Elision.WebEditState, Version=8.1.36.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sitecore.Elision-redist.8.1.36-pre\lib\net45\Elision.WebEditState.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Lucene.Net, Version=3.0.3.0, Culture=neutral, PublicKeyToken=85089178b9ac3181, processorArchitecture=MSIL">
@@ -122,8 +126,40 @@
       <HintPath>..\packages\Sitecore81Deploy.8.1.0\lib\net45\Sitecore.Analytics.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Sitecore.Buckets, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sitecore81Client.8.1.0\lib\net45\Sitecore.Buckets.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Sitecore.Buckets.Client, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sitecore81Client.8.1.0\lib\net45\Sitecore.Buckets.Client.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Sitecore.Client, Version=8.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sitecore81Client.8.1.0\lib\net45\Sitecore.Client.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Sitecore.ContentTesting.Mvc, Version=8.1.2.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Sitecore81Mvc.8.1.0\lib\net45\Sitecore.ContentTesting.Mvc.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Sitecore.ExperienceEditor, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sitecore81Client.8.1.0\lib\net45\Sitecore.ExperienceEditor.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Sitecore.ExperienceEditor.Speak, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sitecore81Client.8.1.0\lib\net45\Sitecore.ExperienceEditor.Speak.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Sitecore.ExperienceEditor.Speak.Ribbon, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sitecore81Client.8.1.0\lib\net45\Sitecore.ExperienceEditor.Speak.Ribbon.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Sitecore.ExperienceExplorer.Business, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sitecore81Client.8.1.0\lib\net45\Sitecore.ExperienceExplorer.Business.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Sitecore.ExperienceExplorer.Web, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sitecore81Client.8.1.0\lib\net45\Sitecore.ExperienceExplorer.Web.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Sitecore.Kernel, Version=8.1.0.0, Culture=neutral, processorArchitecture=MSIL">
@@ -147,7 +183,7 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="Sitecore.Mvc.ExperienceEditor, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore81Mvc.8.1.0\lib\net45\Sitecore.Mvc.ExperienceEditor.dll</HintPath>
+      <HintPath>..\packages\Sitecore81Client.8.1.0\lib\net45\Sitecore.Mvc.ExperienceEditor.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="sitecore.nexus, Version=1.0.0.4407, Culture=neutral, processorArchitecture=MSIL">

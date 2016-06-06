@@ -13,9 +13,9 @@ namespace Elision.Navigation.Areas.Elision.Controllers
             _navigationRepository = navigationRepository;
         }
 
-        public ActionResult Primary(Item pageContextItem, int? navigationLevels)
+        public ActionResult Primary(Item pageContextItem, int? navigationLevels, Item renderingDataSourceItem)
         {
-            var model = _navigationRepository.GetPrimaryMenu(pageContextItem, navigationLevels.GetValueOrDefault(0));
+            var model = _navigationRepository.GetPrimaryMenu(pageContextItem, navigationLevels.GetValueOrDefault(0), renderingDataSourceItem);
             return View(model);
         }
 
