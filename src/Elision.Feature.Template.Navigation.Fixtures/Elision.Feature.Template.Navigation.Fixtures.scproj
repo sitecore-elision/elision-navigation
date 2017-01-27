@@ -26,7 +26,7 @@
     <EnableCodeGeneration>True</EnableCodeGeneration>
     <FieldsForCodeGen>Title,Blob,Shared,Unversioned,Default value,Validation,ValidationText,__Long description,__Short description,__Display name,__Hidden,__Read Only,__Sortorder</FieldsForCodeGen>
     <CodeGenTargetProject>Elision.Feature.Template.Navigation</CodeGenTargetProject>
-    <CodeGenFile>Fixtures.cs</CodeGenFile>
+    <CodeGenFile>Templates.cs</CodeGenFile>
     <BaseTransformFile>StructItem.tt</BaseTransformFile>
     <HeaderTransformFile>StructHeader.tt</HeaderTransformFile>
     <NuGetPackageImportStamp>
@@ -43,10 +43,10 @@
     <DebugSymbols>false</DebugSymbols>
     <OutputPath>.\bin\Release\</OutputPath>
     <RecursiveDeployAction>Ignore</RecursiveDeployAction>
-    <PackageName>Elision.Navigation</PackageName>
-    <PackageAuthor>Patrick Delancy</PackageAuthor>
-    <PackagePublisher>Patrick Delancy</PackagePublisher>
-    <PackageVersion>1.0.0.0</PackageVersion>
+    <PackageName>Elision.Feature.Navigation</PackageName>
+    <PackageAuthor>Jeffrey Rondeau</PackageAuthor>
+    <PackagePublisher>Jeffrey Rondeau</PackagePublisher>
+    <PackageVersion>0.0.1</PackageVersion>
     <PackageReadme />
     <SitecoreAssemblyPath>..\packages\Sitecore81Deploy.8.1.0\lib\net45</SitecoreAssemblyPath>
     <GeneratePackage>True</GeneratePackage>
@@ -56,17 +56,17 @@
     <NuGetGenerateNuGetPackage>True</NuGetGenerateNuGetPackage>
     <NuGetExePath>..\.nuget</NuGetExePath>
     <NuGetSummary />
-    <NuGetDescription>TDS Item Fixtures for Sitecore Development Accelerator Framework</NuGetDescription>
-    <NuGetTitle>Elision Navigation TDS Fixtures</NuGetTitle>
-    <NuGetVersion>1.0.0.0</NuGetVersion>
-    <NuGetPackageId>Sitecore.Elision.Navigation.Fixtures</NuGetPackageId>
-    <NuGetAuthors>PatrickDelancy</NuGetAuthors>
-    <NuGetOwners>PatrickDelancy</NuGetOwners>
+    <NuGetDescription>TDS Feature Layer Item Fixtures for use with Elision Navigation.  Compatible with Sitecore 8.2 Update 2.</NuGetDescription>
+    <NuGetTitle>Elision.Feature.Navigation TDS Fixtures</NuGetTitle>
+    <NuGetVersion>0.0.1</NuGetVersion>
+    <NuGetPackageId>Elision.Feature.Navigation.Fixtures</NuGetPackageId>
+    <NuGetAuthors>jrondeau</NuGetAuthors>
+    <NuGetOwners>jrondeau</NuGetOwners>
     <NuGetCopyright />
     <NuGetLicenseUrl />
     <NuGetIconUrl />
     <NuGetProjectUrl>https://github.com/sitecore-elision/elision-navigation</NuGetProjectUrl>
-    <NuGetTags>sitecore elision</NuGetTags>
+    <NuGetTags>sitecore elision feature navigation tds fixtures</NuGetTags>
     <NuGetReleaseNotes>
     </NuGetReleaseNotes>
     <NuGetLanguage />
