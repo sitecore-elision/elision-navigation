@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elision.Navigation", "Elision.Navigation\Elision.Navigation.csproj", "{C70B5BE9-20E7-4FF1-A26A-7F201080EF8C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elision.Feature.Template.Navigation", "Elision.Feature.Template.Navigation\Elision.Feature.Template.Navigation.csproj", "{C70B5BE9-20E7-4FF1-A26A-7F201080EF8C}"
 EndProject
-Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "Elision.Navigation.Fixtures", "Elision.Navigation.Fixtures\Elision.Navigation.Fixtures.scproj", "{D977BFE2-D239-4298-8AB3-5582C3DFCDAB}"
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "Elision.Feature.Template.Navigation.Fixtures", "Elision.Feature.Template.Navigation.Fixtures\Elision.Feature.Template.Navigation.Fixtures.scproj", "{D977BFE2-D239-4298-8AB3-5582C3DFCDAB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

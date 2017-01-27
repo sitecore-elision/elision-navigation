@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>Elision.Feature.Navigation-redist</id>
+    <version>$version$</version>
+    <title>Elision Navigation Feature for Sitecore Redist</title>
+    <authors>jrondeau,PatrickDelancy</authors>
+    <owners>jrondeau</owners>
+    <projectUrl>https://github.com/sitecore-elision/elision-navigation</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>This is the Elision navigation feature package to reference if you are building a module or other code that just needs to reference Elision navigation feature. If you need to install Elision's navigation feature, use the Elision.Feature.Navigation package instead.</description>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright 2016</copyright>
+    <tags>sitecore elision feature navigation</tags>
+  </metadata>
+</package>

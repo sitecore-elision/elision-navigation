@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using Elision.Foundation.Kernel;
-using Sitecore.Data.Items;
 using Sitecore;
+using Sitecore.Data.Items;
 using Sitecore.Links;
 
-namespace Elision.Navigation
+namespace Elision.Feature.Template.Navigation
 {
     public interface INavigationRepository<TNavItem> where TNavItem : class, INavigationItem<TNavItem>, new()
     {
@@ -41,7 +41,7 @@ namespace Elision.Navigation
             if (navigationRoot == null)
                 return null;
 
-            var navItems = this.GetChildNavigationItems(navigationRoot, contextItem, 0, levels - 1);
+            var navItems = GetChildNavigationItems(navigationRoot, contextItem, 0, levels - 1);
 
             AddRootToPrimaryMenu(navItems, contextItem, navigationRoot);
             return navItems;

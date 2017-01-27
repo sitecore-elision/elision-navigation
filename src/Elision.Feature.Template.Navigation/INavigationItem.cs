@@ -1,6 +1,6 @@
 using Sitecore.Data.Items;
 
-namespace Elision.Navigation
+namespace Elision.Feature.Template.Navigation
 {
     public interface INavigationItem<TNavItem> where TNavItem : INavigationItem<TNavItem>
     {

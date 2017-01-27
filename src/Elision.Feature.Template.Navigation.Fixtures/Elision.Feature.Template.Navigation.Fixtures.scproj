@@ -21,11 +21,11 @@
     <DeleteAppCodeCompiledFiles>true</DeleteAppCodeCompiledFiles>
     <LegacyFileReplacement>false</LegacyFileReplacement>
     <AssemblyName>Elision.Navigation.Fixtures</AssemblyName>
-    <Name>Elision.Navigation.Fixtures</Name>
+    <Name>Elision.Feature.Template.Navigation.Fixtures</Name>
     <RootNamespace>Elision.Navigation.Fixtures</RootNamespace>
     <EnableCodeGeneration>True</EnableCodeGeneration>
     <FieldsForCodeGen>Title,Blob,Shared,Unversioned,Default value,Validation,ValidationText,__Long description,__Short description,__Display name,__Hidden,__Read Only,__Sortorder</FieldsForCodeGen>
-    <CodeGenTargetProject>Elision.Navigation</CodeGenTargetProject>
+    <CodeGenTargetProject>Elision.Feature.Template.Navigation</CodeGenTargetProject>
     <CodeGenFile>Fixtures.cs</CodeGenFile>
     <BaseTransformFile>StructItem.tt</BaseTransformFile>
     <HeaderTransformFile>StructHeader.tt</HeaderTransformFile>
@@ -36,6 +36,8 @@
     <DebugSymbols>true</DebugSymbols>
     <OutputPath>.\bin\Debug\</OutputPath>
     <RecursiveDeployAction>Ignore</RecursiveDeployAction>
+    <EnableValidations>False</EnableValidations>
+    <ValidationSettingsFilePath>.\Elision.Navigation.Fixtures_Debug.xml</ValidationSettingsFilePath>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
     <DebugSymbols>false</DebugSymbols>
