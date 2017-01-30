@@ -11,7 +11,7 @@ using Sitecore.Data;
 //     the code is regenerated.
 // </auto-generated>
 //------------------------------------------------------------------------------
-namespace Elision.Feature.Template.Navigation
+namespace Elision.Feature.Template.Navigation.SC.Integration
 {
 	public partial struct Templates
     {
@@ -94,7 +94,7 @@ namespace Elision.Feature.Template.Navigation
 		}
     }
 }
-namespace Elision.Feature.Template.Navigation
+namespace Elision.Feature.Template.Navigation.SC.Integration
 {
 	public partial struct Templates
     {
@@ -177,7 +177,7 @@ namespace Elision.Feature.Template.Navigation
 		}
     }
 }
-namespace Elision.Feature.Template.Navigation
+namespace Elision.Feature.Template.Navigation.SC.Integration
 {
 	public partial struct Templates
     {
@@ -198,7 +198,7 @@ namespace Elision.Feature.Template.Navigation
 		}
     }
 }
-namespace Elision.Feature.Template.Navigation
+namespace Elision.Feature.Template.Navigation.SC.Integration
 {
 	public partial struct Templates
     {

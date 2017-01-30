@@ -25,7 +25,7 @@
     <RootNamespace>Elision.Navigation.Fixtures</RootNamespace>
     <EnableCodeGeneration>True</EnableCodeGeneration>
     <FieldsForCodeGen>Title,Blob,Shared,Unversioned,Default value,Validation,ValidationText,__Long description,__Short description,__Display name,__Hidden,__Read Only,__Sortorder</FieldsForCodeGen>
-    <CodeGenTargetProject>Elision.Feature.Template.Navigation</CodeGenTargetProject>
+    <CodeGenTargetProject>Elision.Feature.Template.Navigation.SC.Integration</CodeGenTargetProject>
     <CodeGenFile>Templates.cs</CodeGenFile>
     <BaseTransformFile>StructItem.tt</BaseTransformFile>
     <HeaderTransformFile>StructHeader.tt</HeaderTransformFile>

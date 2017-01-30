@@ -1,7 +1,7 @@
 ﻿using System.Linq;
 using Sitecore.Data.Items;
 
-namespace Elision.Feature.Template.Navigation
+namespace Elision.Feature.Template.Navigation.SC.Integration.Models
 {
     public class NavigationItem : INavigationItem<NavigationItem>
     {

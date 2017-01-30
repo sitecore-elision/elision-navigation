@@ -14,6 +14,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".tds", ".tds", "{A303E779-C
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Deployment", "Deployment", "{E210B5A5-C64C-4A6A-9EF9-1B4762991092}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elision.Feature.Template.Navigation.SC.Integration", "Elision.Feature.Template.Navigation.SC.Integration\Elision.Feature.Template.Navigation.SC.Integration.csproj", "{7DC9726B-904F-4897-A6CE-49C2BF9D362F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Integration", "Integration", "{5C0CABBA-D8E2-4758-BFC6-52FE5B0EA499}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -28,11 +32,16 @@ Global
 		{D977BFE2-D239-4298-8AB3-5582C3DFCDAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D977BFE2-D239-4298-8AB3-5582C3DFCDAB}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D977BFE2-D239-4298-8AB3-5582C3DFCDAB}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{7DC9726B-904F-4897-A6CE-49C2BF9D362F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DC9726B-904F-4897-A6CE-49C2BF9D362F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DC9726B-904F-4897-A6CE-49C2BF9D362F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DC9726B-904F-4897-A6CE-49C2BF9D362F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D977BFE2-D239-4298-8AB3-5582C3DFCDAB} = {E210B5A5-C64C-4A6A-9EF9-1B4762991092}
+		{7DC9726B-904F-4897-A6CE-49C2BF9D362F} = {5C0CABBA-D8E2-4758-BFC6-52FE5B0EA499}
 	EndGlobalSection
 EndGlobal

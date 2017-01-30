@@ -1,4 +1,6 @@
 ﻿using System.Web.Mvc;
+using Elision.Feature.Template.Navigation.SC.Integration;
+using Elision.Feature.Template.Navigation.SC.Integration.Models;
 using Sitecore.Data.Items;
 using Sitecore.Mvc.Controllers;
 
