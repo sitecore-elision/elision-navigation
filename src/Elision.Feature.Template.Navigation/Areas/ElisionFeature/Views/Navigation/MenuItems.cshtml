@@ -1,4 +1,5 @@
-﻿@model IList<Elision.Navigation.NavigationItem>
+﻿@using Elision.Feature.Template.Navigation.SC.Integration.Models;
+@model IList<NavigationItem>
 @if (Model == null || !Model.Any())
 {
     return;

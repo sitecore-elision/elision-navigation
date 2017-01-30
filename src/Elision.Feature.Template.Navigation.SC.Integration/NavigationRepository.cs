@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using Elision.Feature.Template.Navigation.SC.Integration.Models;
 using Elision.Foundation.Kernel;
 using Sitecore;
 using Sitecore.Data.Items;
 using Sitecore.Links;
 
-namespace Elision.Feature.Template.Navigation
+namespace Elision.Feature.Template.Navigation.SC.Integration
 {
     public interface INavigationRepository<TNavItem> where TNavItem : class, INavigationItem<TNavItem>, new()
     {
@@ -82,8 +83,7 @@ namespace Elision.Feature.Template.Navigation
             if (item.InheritsFrom(Templates.MenuLink.TemplateId) || item.InheritsFrom(Templates.MenuFolder.TemplateId))
                 return true;
 
-            return /*item.HasContextLanguage() &&*/
-                item.InheritsFrom(Templates._Navigable.TemplateId)
+            return item.InheritsFrom(Templates._Navigable.TemplateId)
                 && (forceShowInMenu || MainUtil.GetBool(item[Templates._Navigable.FieldNames.ShowInNavigation], false));
         }
 
