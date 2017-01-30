@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elision.Feature.Template.Navigation", "Elision.Feature.Template.Navigation\Elision.Feature.Template.Navigation.csproj", "{C70B5BE9-20E7-4FF1-A26A-7F201080EF8C}"
+EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "Elision.Feature.Template.Navigation.Fixtures", "Elision.Feature.Template.Navigation.Fixtures\Elision.Feature.Template.Navigation.Fixtures.scproj", "{D977BFE2-D239-4298-8AB3-5582C3DFCDAB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".tds", ".tds", "{A303E779-C599-43F0-ACA3-D6A4BFE7D34A}"
+	ProjectSection(SolutionItems) = preProject
+		TdsGlobal.config = TdsGlobal.config
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Deployment", "Deployment", "{E210B5A5-C64C-4A6A-9EF9-1B4762991092}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C70B5BE9-20E7-4FF1-A26A-7F201080EF8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C70B5BE9-20E7-4FF1-A26A-7F201080EF8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C70B5BE9-20E7-4FF1-A26A-7F201080EF8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C70B5BE9-20E7-4FF1-A26A-7F201080EF8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D977BFE2-D239-4298-8AB3-5582C3DFCDAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D977BFE2-D239-4298-8AB3-5582C3DFCDAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D977BFE2-D239-4298-8AB3-5582C3DFCDAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D977BFE2-D239-4298-8AB3-5582C3DFCDAB}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D977BFE2-D239-4298-8AB3-5582C3DFCDAB} = {E210B5A5-C64C-4A6A-9EF9-1B4762991092}
+	EndGlobalSection
+EndGlobal

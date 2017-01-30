@@ -2,7 +2,7 @@
 using Sitecore.Data.Items;
 using Sitecore.Mvc.Controllers;
 
-namespace Elision.Navigation.Areas.Elision.Controllers
+namespace Elision.Feature.Template.Navigation.Areas.ElisionFeature.Controllers
 {
     public class NavigationController : SitecoreController
     {

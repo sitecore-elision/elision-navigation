@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Elision.Navigation
+namespace Elision.Feature.Template.Navigation
 {
     public class NavigationItems<TNavItem> where TNavItem : INavigationItem<TNavItem>
     {
