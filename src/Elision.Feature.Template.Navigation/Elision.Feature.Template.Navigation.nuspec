@@ -2,7 +2,7 @@
 <package>
   <metadata>
     <id>Elision.Feature.Navigation</id>
-    <version>0.0.1</version>
+    <version>$version$</version>
     <title>Elision Navigation Feature for Sitecore</title>
     <authors>jrondeau,PatrickDelancy</authors>
     <owners>jrondeau</owners>
