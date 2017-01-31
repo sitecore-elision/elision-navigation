@@ -171,6 +171,8 @@
   <ItemGroup>
     <None Include="Elision.Feature.Template.Navigation.nuspec" />
     <None Include="Elision.Feature.Template.Navigation.beta.nuspec" />
+    <Content Include="Init.ps1" />
+    <Content Include="Install.ps1" />
     <None Include="packages.config" />
     <Content Include="Areas\ElisionFeature\Views\Navigation\Primary.cshtml" />
     <Content Include="Areas\ElisionFeature\Views\Navigation\Secondary.cshtml" />
