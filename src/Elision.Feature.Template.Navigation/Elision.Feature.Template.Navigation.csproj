@@ -169,13 +169,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Elision.Feature.Template.Navigation.nuspec" />
-    <None Include="Elision.Feature.Template.Navigation.beta.nuspec" />
     <None Include="packages.config" />
-    <Content Include="Areas\ElisionFeature\Views\Navigation\Primary.cshtml" />
-    <Content Include="Areas\ElisionFeature\Views\Navigation\Secondary.cshtml" />
-    <Content Include="Areas\ElisionFeature\Views\Navigation\MenuItems.cshtml" />
-    <Content Include="Areas\ElisionFeature\Views\Navigation\Breadcrumbs.cshtml" />
+    <None Include="Areas\ElisionFeature\Views\Navigation\Primary.cshtml" />
+    <None Include="Areas\ElisionFeature\Views\Navigation\Secondary.cshtml" />
+    <None Include="Areas\ElisionFeature\Views\Navigation\MenuItems.cshtml" />
+    <None Include="Areas\ElisionFeature\Views\Navigation\Breadcrumbs.cshtml" />
     <None Include="Areas\ElisionFeature\web.config" />
     <None Include="Web.config" />
   </ItemGroup>
