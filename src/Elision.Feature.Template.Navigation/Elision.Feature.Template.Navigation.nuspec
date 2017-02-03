@@ -13,4 +13,9 @@
     <copyright>Copyright 2016</copyright>
     <tags>sitecore elision feature navigation</tags>
   </metadata>
+  <files>
+    <file src="..\..\BuildScripts\*.ps1" target="tools" />
+    <file src="..\Elision.Feature.Template.Navigation.SC.Integration\**\*.*" target="lib\Elision\Elision.Feature.Template.Navigation.SC.Integration" exclude="**\bin\**\*.*;**\obj\**\*.*" />
+    <file src="..\Elision.Feature.Template.Navigation\**\*.*" target="lib\Elision\Elision.Feature.Template.Navigation" exclude="**\bin\**\*.*;**\obj\**\*.*;*.nuspec" />
+  </files>
 </package>
