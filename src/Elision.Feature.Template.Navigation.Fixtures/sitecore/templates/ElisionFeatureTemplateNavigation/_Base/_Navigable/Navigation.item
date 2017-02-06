@@ -1,41 +1,41 @@
 ----item----
 version: 1
-id: {BF4BDE08-68FF-4753-9987-4181716989FD}
+id: {363B7049-BDC6-4259-845E-1C7B788F657F}
 database: master
-path: /sitecore/templates/Elision/Navigation/_Base/_Navigable/__Standard Values
+path: /sitecore/templates/ElisionFeatureTemplateNavigation/_Base/_Navigable/Navigation
 parent: {3B5F863D-692E-41E2-A2CA-B027227A2C87}
-name: __Standard Values
+name: Navigation
 master: {00000000-0000-0000-0000-000000000000}
-template: {3B5F863D-692E-41E2-A2CA-B027227A2C87}
-templatekey: _Navigable
-created: 20160526T201447:635998904873870000
+template: {E269FBB5-3750-427A-9149-7AA950B49301}
+templatekey: Template section
+created: 20160527T011446Z
 
+----field----
+field: {E2E2B75D-A2F7-4075-BDE2-D13306E9E350}
+name: Collapsed by Default
+key: collapsed by default
+content-length: 1
+
+1
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 22
+
+Network/16x16/link.png
 ----version----
 language: en
 version: 1
-revision: 3e9600fc-5428-4f84-8432-9bfaafd5ce6d
+revision: e148103c-58b6-4cf6-95da-f822165a40ca
 
-----field----
-field: {20F9494E-0190-47A0-8A5B-E64F67E801B9}
-name: ShowInNavigation
-key: showinnavigation
-content-length: 0
-
-
-----field----
-field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
-name: __Owner
-key: __owner
-content-length: 14
-
-sitecore\admin
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
 key: __created
-content-length: 15
+content-length: 16
 
-20150712T223243
+20150218T140702Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -49,14 +49,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-3e9600fc-5428-4f84-8432-9bfaafd5ce6d
+e148103c-58b6-4cf6-95da-f822165a40ca
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150827T033725Z
+20160526T203531Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

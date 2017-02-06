@@ -20,7 +20,7 @@ namespace Elision.Feature.Template.Navigation.SC.Integration
 
         /// <list type="table">
         ///     <item><term>Template ID:</term><description>{1CDE63DB-4F0A-467D-A334-DD7192864278}</description></item>
-        ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Navigation/_Base/_NavigationLevels</description></item>
+        ///     <item><term>Path:</term><description>/sitecore/templates/ElisionFeatureTemplateNavigation/_Base/_NavigationLevels</description></item>
         /// </list>
         /// </summary>
         public struct _NavigationLevels
@@ -38,7 +38,7 @@ namespace Elision.Feature.Template.Navigation.SC.Integration
                 /// <list type="table">
                 ///     <item><term>Field Type:</term><description>Checkbox</description></item>
                 ///     <item><term>Field ID:</term><description>{C8BA8AF6-FDB4-46FE-B0B4-1AE3B53FF24B}</description></item>
-                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Navigation/_Base/_NavigationLevels/Navigation/IncludeTopLevel</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/ElisionFeatureTemplateNavigation/_Base/_NavigationLevels/Navigation/IncludeTopLevel</description></item>
                 /// </list>
 
 
@@ -51,7 +51,7 @@ namespace Elision.Feature.Template.Navigation.SC.Integration
                 /// <list type="table">
                 ///     <item><term>Field Type:</term><description>Number</description></item>
                 ///     <item><term>Field ID:</term><description>{2636D1F7-1CB7-4B90-8A8D-3B11CB030C76}</description></item>
-                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Navigation/_Base/_NavigationLevels/Navigation/NavigationLevels</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/ElisionFeatureTemplateNavigation/_Base/_NavigationLevels/Navigation/NavigationLevels</description></item>
                 /// </list>
 
 
@@ -69,7 +69,7 @@ namespace Elision.Feature.Template.Navigation.SC.Integration
                 /// <list type="table">
                 ///     <item><term>Field Type:</term><description>Checkbox</description></item>
                 ///     <item><term>Field ID:</term><description>{C8BA8AF6-FDB4-46FE-B0B4-1AE3B53FF24B}</description></item>
-                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Navigation/_Base/_NavigationLevels/Navigation/IncludeTopLevel</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/ElisionFeatureTemplateNavigation/_Base/_NavigationLevels/Navigation/IncludeTopLevel</description></item>
                 /// </list>
 
 
@@ -82,7 +82,7 @@ namespace Elision.Feature.Template.Navigation.SC.Integration
                 /// <list type="table">
                 ///     <item><term>Field Type:</term><description>Number</description></item>
                 ///     <item><term>Field ID:</term><description>{2636D1F7-1CB7-4B90-8A8D-3B11CB030C76}</description></item>
-                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Navigation/_Base/_NavigationLevels/Navigation/NavigationLevels</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/ElisionFeatureTemplateNavigation/_Base/_NavigationLevels/Navigation/NavigationLevels</description></item>
                 /// </list>
 
 
@@ -103,7 +103,7 @@ namespace Elision.Feature.Template.Navigation.SC.Integration
 
         /// <list type="table">
         ///     <item><term>Template ID:</term><description>{3B5F863D-692E-41E2-A2CA-B027227A2C87}</description></item>
-        ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Navigation/_Base/_Navigable</description></item>
+        ///     <item><term>Path:</term><description>/sitecore/templates/ElisionFeatureTemplateNavigation/_Base/_Navigable</description></item>
         /// </list>
         /// </summary>
         public struct _Navigable
@@ -121,7 +121,7 @@ namespace Elision.Feature.Template.Navigation.SC.Integration
                 /// <list type="table">
                 ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
                 ///     <item><term>Field ID:</term><description>{9638B7BE-396E-4A34-B050-F3AB26826229}</description></item>
-                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Navigation/_Base/_Navigable/Navigation/NavigationText</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/ElisionFeatureTemplateNavigation/_Base/_Navigable/Navigation/NavigationText</description></item>
                 /// </list>
 
 
@@ -134,7 +134,7 @@ namespace Elision.Feature.Template.Navigation.SC.Integration
                 /// <list type="table">
                 ///     <item><term>Field Type:</term><description>Checkbox</description></item>
                 ///     <item><term>Field ID:</term><description>{20F9494E-0190-47A0-8A5B-E64F67E801B9}</description></item>
-                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Navigation/_Base/_Navigable/Navigation/ShowInNavigation</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/ElisionFeatureTemplateNavigation/_Base/_Navigable/Navigation/ShowInNavigation</description></item>
                 /// </list>
 
 
@@ -152,7 +152,7 @@ namespace Elision.Feature.Template.Navigation.SC.Integration
                 /// <list type="table">
                 ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
                 ///     <item><term>Field ID:</term><description>{9638B7BE-396E-4A34-B050-F3AB26826229}</description></item>
-                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Navigation/_Base/_Navigable/Navigation/NavigationText</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/ElisionFeatureTemplateNavigation/_Base/_Navigable/Navigation/NavigationText</description></item>
                 /// </list>
 
 
@@ -165,7 +165,7 @@ namespace Elision.Feature.Template.Navigation.SC.Integration
                 /// <list type="table">
                 ///     <item><term>Field Type:</term><description>Checkbox</description></item>
                 ///     <item><term>Field ID:</term><description>{20F9494E-0190-47A0-8A5B-E64F67E801B9}</description></item>
-                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Navigation/_Base/_Navigable/Navigation/ShowInNavigation</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/ElisionFeatureTemplateNavigation/_Base/_Navigable/Navigation/ShowInNavigation</description></item>
                 /// </list>
 
 
@@ -186,7 +186,7 @@ namespace Elision.Feature.Template.Navigation.SC.Integration
 
         /// <list type="table">
         ///     <item><term>Template ID:</term><description>{62E29FF9-1428-42D4-B2F9-E83D92AEAB6B}</description></item>
-        ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Navigation/Content/MenuFolder</description></item>
+        ///     <item><term>Path:</term><description>/sitecore/templates/ElisionFeatureTemplateNavigation/Content/MenuFolder</description></item>
         /// </list>
         /// </summary>
         public struct MenuFolder
@@ -207,7 +207,7 @@ namespace Elision.Feature.Template.Navigation.SC.Integration
 
         /// <list type="table">
         ///     <item><term>Template ID:</term><description>{D661EDF4-40A8-4217-9EFA-31395ACB498E}</description></item>
-        ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Navigation/Content/MenuLink</description></item>
+        ///     <item><term>Path:</term><description>/sitecore/templates/ElisionFeatureTemplateNavigation/Content/MenuLink</description></item>
         /// </list>
         /// </summary>
         public struct MenuLink
@@ -225,7 +225,7 @@ namespace Elision.Feature.Template.Navigation.SC.Integration
                 /// <list type="table">
                 ///     <item><term>Field Type:</term><description>General Link</description></item>
                 ///     <item><term>Field ID:</term><description>{D0F1890A-8739-4CFF-B38A-6883838FEE19}</description></item>
-                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Navigation/Content/MenuLink/Navigation/Link</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/ElisionFeatureTemplateNavigation/Content/MenuLink/Navigation/Link</description></item>
                 /// </list>
 
 
@@ -243,7 +243,7 @@ namespace Elision.Feature.Template.Navigation.SC.Integration
                 /// <list type="table">
                 ///     <item><term>Field Type:</term><description>General Link</description></item>
                 ///     <item><term>Field ID:</term><description>{D0F1890A-8739-4CFF-B38A-6883838FEE19}</description></item>
-                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Navigation/Content/MenuLink/Navigation/Link</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/ElisionFeatureTemplateNavigation/Content/MenuLink/Navigation/Link</description></item>
                 /// </list>
 
 

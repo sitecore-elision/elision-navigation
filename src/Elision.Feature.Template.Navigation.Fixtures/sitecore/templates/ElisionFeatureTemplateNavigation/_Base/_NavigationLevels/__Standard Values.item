@@ -2,13 +2,13 @@
 version: 1
 id: {5F9C3A89-CB8C-4350-8CF8-3D95A4B2F6E3}
 database: master
-path: /sitecore/templates/Elision/Navigation/_Base/_NavigationLevels/__Standard Values
+path: /sitecore/templates/ElisionFeatureTemplateNavigation/_Base/_NavigationLevels/__Standard Values
 parent: {1CDE63DB-4F0A-467D-A334-DD7192864278}
 name: __Standard Values
 master: {00000000-0000-0000-0000-000000000000}
 template: {1CDE63DB-4F0A-467D-A334-DD7192864278}
 templatekey: _NavigationLevels
-created: 20160527T035442:635999180823570000
+created: 20160527T085442Z
 
 ----version----
 language: en
