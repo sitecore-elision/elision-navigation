@@ -169,6 +169,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Config\Include\Elision.Feature.Template.Navigation\RegisterDependencies.config" />
     <None Include="packages.config" />
     <None Include="Areas\ElisionFeature\Views\Navigation\Primary.cshtml" />
     <None Include="Areas\ElisionFeature\Views\Navigation\Secondary.cshtml" />
@@ -178,6 +179,7 @@
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="App_Start\RegisterDependencies.cs" />
     <Compile Include="Areas\ElisionFeature\Controllers\NavigationController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
