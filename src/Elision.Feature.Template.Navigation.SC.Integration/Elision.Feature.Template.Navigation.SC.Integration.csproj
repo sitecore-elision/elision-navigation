@@ -34,80 +34,80 @@
       <HintPath>..\packages\YUICompressor.NET.2.1.1.0\lib\NET20\EcmaScript.NET.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Elision.Foundation, Version=0.4.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Elision.Foundation-redist.0.4.0-pre\lib\net452\Elision.Foundation.dll</HintPath>
+    <Reference Include="Elision.Foundation, Version=0.6.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Elision.Foundation-redist.0.6.0-pre\lib\net452\Elision.Foundation.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Elision.Foundation.CompatibleRenderings, Version=0.4.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Elision.Foundation-redist.0.4.0-pre\lib\net452\Elision.Foundation.CompatibleRenderings.dll</HintPath>
+    <Reference Include="Elision.Foundation.CompatibleRenderings, Version=0.6.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Elision.Foundation-redist.0.6.0-pre\lib\net452\Elision.Foundation.CompatibleRenderings.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Elision.Foundation.DynamicPlaceholders, Version=0.4.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Elision.Foundation-redist.0.4.0-pre\lib\net452\Elision.Foundation.DynamicPlaceholders.dll</HintPath>
+    <Reference Include="Elision.Foundation.DynamicPlaceholders, Version=0.6.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Elision.Foundation-redist.0.6.0-pre\lib\net452\Elision.Foundation.DynamicPlaceholders.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Elision.Foundation.FieldEditor, Version=0.4.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Elision.Foundation-redist.0.4.0-pre\lib\net452\Elision.Foundation.FieldEditor.dll</HintPath>
+    <Reference Include="Elision.Foundation.FieldEditor, Version=0.6.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Elision.Foundation-redist.0.6.0-pre\lib\net452\Elision.Foundation.FieldEditor.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Elision.Foundation.FieldTokens, Version=0.4.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Elision.Foundation-redist.0.4.0-pre\lib\net452\Elision.Foundation.FieldTokens.dll</HintPath>
+    <Reference Include="Elision.Foundation.FieldTokens, Version=0.6.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Elision.Foundation-redist.0.6.0-pre\lib\net452\Elision.Foundation.FieldTokens.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Elision.Foundation.FieldVisibility, Version=0.4.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Elision.Foundation-redist.0.4.0-pre\lib\net452\Elision.Foundation.FieldVisibility.dll</HintPath>
+    <Reference Include="Elision.Foundation.FieldVisibility, Version=0.6.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Elision.Foundation-redist.0.6.0-pre\lib\net452\Elision.Foundation.FieldVisibility.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Elision.Foundation.Ioc, Version=0.4.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Elision.Foundation-redist.0.4.0-pre\lib\net452\Elision.Foundation.Ioc.dll</HintPath>
+    <Reference Include="Elision.Foundation.Kernel, Version=0.6.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Elision.Foundation-redist.0.6.0-pre\lib\net452\Elision.Foundation.Kernel.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Elision.Foundation.Kernel, Version=0.4.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Elision.Foundation-redist.0.4.0-pre\lib\net452\Elision.Foundation.Kernel.dll</HintPath>
+    <Reference Include="Elision.Foundation.LayoutRenderings, Version=0.6.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Elision.Foundation-redist.0.6.0-pre\lib\net452\Elision.Foundation.LayoutRenderings.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Elision.Foundation.LayoutRenderings, Version=0.4.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Elision.Foundation-redist.0.4.0-pre\lib\net452\Elision.Foundation.LayoutRenderings.dll</HintPath>
+    <Reference Include="Elision.Foundation.LookupSourceItems, Version=0.6.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Elision.Foundation-redist.0.6.0-pre\lib\net452\Elision.Foundation.LookupSourceItems.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Elision.Foundation.LookupSourceItems, Version=0.4.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Elision.Foundation-redist.0.4.0-pre\lib\net452\Elision.Foundation.LookupSourceItems.dll</HintPath>
+    <Reference Include="Elision.Foundation.Mvc, Version=0.6.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Elision.Foundation-redist.0.6.0-pre\lib\net452\Elision.Foundation.Mvc.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Elision.Foundation.Mvc, Version=0.4.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Elision.Foundation-redist.0.4.0-pre\lib\net452\Elision.Foundation.Mvc.dll</HintPath>
+    <Reference Include="Elision.Foundation.PlaceholderSettings, Version=0.6.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Elision.Foundation-redist.0.6.0-pre\lib\net452\Elision.Foundation.PlaceholderSettings.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Elision.Foundation.PlaceholderSettings, Version=0.4.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Elision.Foundation-redist.0.4.0-pre\lib\net452\Elision.Foundation.PlaceholderSettings.dll</HintPath>
+    <Reference Include="Elision.Foundation.Publishing, Version=0.6.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Elision.Foundation-redist.0.6.0-pre\lib\net452\Elision.Foundation.Publishing.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Elision.Foundation.Publishing, Version=0.4.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Elision.Foundation-redist.0.4.0-pre\lib\net452\Elision.Foundation.Publishing.dll</HintPath>
+    <Reference Include="Elision.Foundation.Rules, Version=0.6.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Elision.Foundation-redist.0.6.0-pre\lib\net452\Elision.Foundation.Rules.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Elision.Foundation.Rules, Version=0.4.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Elision.Foundation-redist.0.4.0-pre\lib\net452\Elision.Foundation.Rules.dll</HintPath>
+    <Reference Include="Elision.Foundation.Search, Version=0.6.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Elision.Foundation-redist.0.6.0-pre\lib\net452\Elision.Foundation.Search.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Elision.Foundation.SiteResources, Version=0.4.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Elision.Foundation-redist.0.4.0-pre\lib\net452\Elision.Foundation.SiteResources.dll</HintPath>
+    <Reference Include="Elision.Foundation.SiteResources, Version=0.6.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Elision.Foundation-redist.0.6.0-pre\lib\net452\Elision.Foundation.SiteResources.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Elision.Foundation.TabbedRenderingSelector, Version=0.4.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Elision.Foundation-redist.0.4.0-pre\lib\net452\Elision.Foundation.TabbedRenderingSelector.dll</HintPath>
+    <Reference Include="Elision.Foundation.TabbedRenderingSelector, Version=0.6.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Elision.Foundation-redist.0.6.0-pre\lib\net452\Elision.Foundation.TabbedRenderingSelector.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Elision.Foundation.Themes, Version=0.4.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Elision.Foundation-redist.0.4.0-pre\lib\net452\Elision.Foundation.Themes.dll</HintPath>
+    <Reference Include="Elision.Foundation.Themes, Version=0.6.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Elision.Foundation-redist.0.6.0-pre\lib\net452\Elision.Foundation.Themes.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Elision.Foundation.UpdateReferences, Version=0.4.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Elision.Foundation-redist.0.4.0-pre\lib\net452\Elision.Foundation.UpdateReferences.dll</HintPath>
+    <Reference Include="Elision.Foundation.UpdateReferences, Version=0.6.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Elision.Foundation-redist.0.6.0-pre\lib\net452\Elision.Foundation.UpdateReferences.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Elision.Foundation.WebEditState, Version=0.4.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Elision.Foundation-redist.0.4.0-pre\lib\net452\Elision.Foundation.WebEditState.dll</HintPath>
+    <Reference Include="Elision.Foundation.WebEditState, Version=0.6.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Elision.Foundation-redist.0.6.0-pre\lib\net452\Elision.Foundation.WebEditState.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="HtmlAgilityPack, Version=1.4.6.0, Culture=neutral, PublicKeyToken=bd319b19eaf3b43a, processorArchitecture=MSIL">
@@ -172,32 +172,32 @@
       <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.3\lib\net45\System.Net.Http.Formatting.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="System.Web.Helpers, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.AspNet.WebPages.1.0.20105.408\lib\net40\System.Web.Helpers.dll</HintPath>
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.Helpers.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Web.Http, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.2.3\lib\net45\System.Web.Http.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="System.Web.Mvc, Version=3.0.0.1, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.AspNet.Mvc.3.0.50813.1\lib\net40\System.Web.Mvc.dll</HintPath>
+    <Reference Include="System.Web.Mvc, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.3\lib\net45\System.Web.Mvc.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="System.Web.Razor, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.AspNet.Razor.1.0.20105.408\lib\net40\System.Web.Razor.dll</HintPath>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.3\lib\net45\System.Web.Razor.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="System.Web.WebPages, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.AspNet.WebPages.1.0.20105.408\lib\net40\System.Web.WebPages.dll</HintPath>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="System.Web.WebPages.Deployment, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.AspNet.WebPages.1.0.20105.408\lib\net40\System.Web.WebPages.Deployment.dll</HintPath>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="System.Web.WebPages.Razor, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.AspNet.WebPages.1.0.20105.408\lib\net40\System.Web.WebPages.Razor.dll</HintPath>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Xml.Linq" />
