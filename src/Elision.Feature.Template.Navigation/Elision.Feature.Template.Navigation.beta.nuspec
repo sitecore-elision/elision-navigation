@@ -7,6 +7,7 @@
     <authors>jrondeau,PatrickDelancy</authors>
     <owners>jrondeau</owners>
     <projectUrl>https://github.com/sitecore-elision/elision-navigation</projectUrl>
+    <iconUrl>https://image.ibb.co/ihBV7Q/Elision_Logo.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>This is the Elision navigation feature package to reference if you are building a module or other code that just needs to reference Elision navigation feature. If you need to install Elision's navigation feature, use the Elision.Feature.Navigation package instead.</description>
     <releaseNotes></releaseNotes>
