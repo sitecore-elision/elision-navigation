@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2016
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elision.Feature.Template.Navigation", "Elision.Feature.Template.Navigation\Elision.Feature.Template.Navigation.csproj", "{C70B5BE9-20E7-4FF1-A26A-7F201080EF8C}"
 EndProject
@@ -42,5 +42,9 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{D977BFE2-D239-4298-8AB3-5582C3DFCDAB} = {E210B5A5-C64C-4A6A-9EF9-1B4762991092}
 		{7DC9726B-904F-4897-A6CE-49C2BF9D362F} = {5C0CABBA-D8E2-4758-BFC6-52FE5B0EA499}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.6.0.1304.0\lib\portable-net45+win+wp8;packages\EnterpriseLibrary.TransientFaultHandling.Caching.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Data.6.0.1304.1\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.ServiceBus.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.WindowsAzure.Storage.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Configuration.6.0.1304.0\lib\NET45
+		SolutionGuid = {AF30276B-7C3B-4571-B5B3-1C2E7526C333}
 	EndGlobalSection
 EndGlobal
