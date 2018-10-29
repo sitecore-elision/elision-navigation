@@ -2,7 +2,7 @@
 version: 1
 id: {62E29FF9-1428-42D4-B2F9-E83D92AEAB6B}
 database: master
-path: /sitecore/templates/ElisionFeatureTemplateNavigation/Content/MenuFolder
+path: /sitecore/templates/Elision/Feature/ElisionFeatureTemplateNavigation/Content/MenuFolder
 parent: {EE566D72-B8B0-44B2-A9EF-8FC70CC60148}
 name: MenuFolder
 master: {00000000-0000-0000-0000-000000000000}

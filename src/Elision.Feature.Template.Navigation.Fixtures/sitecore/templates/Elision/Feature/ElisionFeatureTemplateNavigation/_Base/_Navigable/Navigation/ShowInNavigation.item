@@ -2,7 +2,7 @@
 version: 1
 id: {20F9494E-0190-47A0-8A5B-E64F67E801B9}
 database: master
-path: /sitecore/templates/ElisionFeatureTemplateNavigation/_Base/_Navigable/Navigation/ShowInNavigation
+path: /sitecore/templates/Elision/Feature/ElisionFeatureTemplateNavigation/_Base/_Navigable/Navigation/ShowInNavigation
 parent: {363B7049-BDC6-4259-845E-1C7B788F657F}
 name: ShowInNavigation
 master: {00000000-0000-0000-0000-000000000000}

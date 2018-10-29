@@ -193,7 +193,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Config\Include\Elision.Feature.Template.Navigation\RegisterDependencies.config" />
+    <Content Include="App_Config\Include\Feature\Elision.Feature.Template.Navigation\RegisterDependencies.config" />
     <None Include="packages.config" />
     <None Include="Areas\ElisionFeature\Views\Navigation\Primary.cshtml" />
     <None Include="Areas\ElisionFeature\Views\Navigation\Secondary.cshtml" />

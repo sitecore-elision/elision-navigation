@@ -2,7 +2,7 @@
 version: 1
 id: {2636D1F7-1CB7-4B90-8A8D-3B11CB030C76}
 database: master
-path: /sitecore/templates/ElisionFeatureTemplateNavigation/_Base/_NavigationLevels/Navigation/NavigationLevels
+path: /sitecore/templates/Elision/Feature/ElisionFeatureTemplateNavigation/_Base/_NavigationLevels/Navigation/NavigationLevels
 parent: {99E4413A-D3F9-45B3-98F4-454B7B83147E}
 name: NavigationLevels
 master: {00000000-0000-0000-0000-000000000000}

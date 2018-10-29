@@ -2,7 +2,7 @@
 version: 1
 id: {C8BA8AF6-FDB4-46FE-B0B4-1AE3B53FF24B}
 database: master
-path: /sitecore/templates/ElisionFeatureTemplateNavigation/_Base/_NavigationLevels/Navigation/IncludeTopLevel
+path: /sitecore/templates/Elision/Feature/ElisionFeatureTemplateNavigation/_Base/_NavigationLevels/Navigation/IncludeTopLevel
 parent: {99E4413A-D3F9-45B3-98F4-454B7B83147E}
 name: IncludeTopLevel
 master: {00000000-0000-0000-0000-000000000000}

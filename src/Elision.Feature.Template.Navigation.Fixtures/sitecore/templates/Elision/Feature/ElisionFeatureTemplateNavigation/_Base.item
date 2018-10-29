@@ -1,33 +1,26 @@
 ----item----
 version: 1
-id: {D661EDF4-40A8-4217-9EFA-31395ACB498E}
+id: {2D4DF733-2567-4576-AC30-8D0A295E73A2}
 database: master
-path: /sitecore/templates/ElisionFeatureTemplateNavigation/Content/MenuLink
-parent: {EE566D72-B8B0-44B2-A9EF-8FC70CC60148}
-name: MenuLink
+path: /sitecore/templates/Elision/Feature/ElisionFeatureTemplateNavigation/_Base
+parent: {5E920802-FFCF-413E-BC97-4BF627BB7F26}
+name: _Base
 master: {00000000-0000-0000-0000-000000000000}
-template: {AB86861A-6030-46C5-B394-E8F99E8B87DB}
-templatekey: Template
-created: 20160527T011443Z
+template: {0437FEE2-44C9-46A6-ABE9-28858D9FEE8C}
+templatekey: Template Folder
+created: 20160527T090035Z
 
 ----field----
-field: {12C33F3F-86C5-43A5-AEB4-5598CEC45116}
-name: __Base template
-key: __base template
-content-length: 38
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 1
 
-{1930BBEB-7805-471A-A3BE-4858AC7CF696}
-----field----
-field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
-name: __Icon
-key: __icon
-content-length: 26
-
-Network/32x32/link_add.png
+0
 ----version----
 language: en
 version: 1
-revision: c1e461be-015c-429c-854b-92709beca7ef
+revision: 647a5438-eb4a-41cc-97a5-dee6ee022d24
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -35,7 +28,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20151204T200814Z
+20160527T040035Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -49,18 +42,18 @@ name: __Revision
 key: __revision
 content-length: 36
 
-c1e461be-015c-429c-854b-92709beca7ef
+647a5438-eb4a-41cc-97a5-dee6ee022d24
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160527T040021Z
+20170206T191641Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
 key: __updated by
 content-length: 14
 
-sitecore\admin
+sitecore\Admin
