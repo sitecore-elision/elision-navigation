@@ -13,6 +13,26 @@ using Sitecore.Data;
 //------------------------------------------------------------------------------
 namespace Elision.Feature.Template.Navigation.SC.Integration
 {
+    public partial struct Renderings
+    {
+        public partial struct Navigation
+        {
+            /// <summary>
+
+            /// The Primary Navigation rendering.
+
+
+            /// <list type="table">
+            ///     <item><term>Rendering ID:</term><description>{1485B88E-01C5-45A6-A83A-B68B4327CF40}</description></item>
+            ///     <item><term>Path:</term><description>/sitecore/layout/Renderings/Elision/Feature/ElisionFeatureTemplateNavigation/Navigation/Primary Navigation</description></item>
+            /// </list>
+            /// </summary>
+            public static readonly ID Primary_Navigation = new ID("{1485B88E-01C5-45A6-A83A-B68B4327CF40}");
+        }
+    }
+}
+namespace Elision.Feature.Template.Navigation.SC.Integration
+{
 	public partial struct Templates
     {
         /// <summary>
@@ -196,6 +216,44 @@ namespace Elision.Feature.Template.Navigation.SC.Integration
 
 
 		}
+    }
+}
+namespace Elision.Feature.Template.Navigation.SC.Integration
+{
+    public partial struct Renderings
+    {
+        public partial struct Navigation
+        {
+            /// <summary>
+
+
+            /// <list type="table">
+            ///     <item><term>Rendering ID:</term><description>{6C79929B-3342-4952-B49D-F5FCABFA7D6C}</description></item>
+            ///     <item><term>Path:</term><description>/sitecore/layout/Renderings/Elision/Feature/ElisionFeatureTemplateNavigation/Navigation/Breadcrumbs</description></item>
+            /// </list>
+            /// </summary>
+            public static readonly ID Breadcrumbs = new ID("{6C79929B-3342-4952-B49D-F5FCABFA7D6C}");
+        }
+    }
+}
+namespace Elision.Feature.Template.Navigation.SC.Integration
+{
+    public partial struct Renderings
+    {
+        public partial struct Navigation
+        {
+            /// <summary>
+
+            /// The Secondary Navigation rendering.
+
+
+            /// <list type="table">
+            ///     <item><term>Rendering ID:</term><description>{BEC1FDD7-0523-4F68-A561-379522B964BB}</description></item>
+            ///     <item><term>Path:</term><description>/sitecore/layout/Renderings/Elision/Feature/ElisionFeatureTemplateNavigation/Navigation/Secondary Navigation</description></item>
+            /// </list>
+            /// </summary>
+            public static readonly ID Secondary_Navigation = new ID("{BEC1FDD7-0523-4F68-A561-379522B964BB}");
+        }
     }
 }
 namespace Elision.Feature.Template.Navigation.SC.Integration
