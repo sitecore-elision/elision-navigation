@@ -18,10 +18,7 @@ namespace Elision.Feature.Template.Navigation.SC.Integration
         public partial struct Navigation
         {
             /// <summary>
-
             /// The Primary Navigation rendering.
-
-
             /// <list type="table">
             ///     <item><term>Rendering ID:</term><description>{1485B88E-01C5-45A6-A83A-B68B4327CF40}</description></item>
             ///     <item><term>Path:</term><description>/sitecore/layout/Renderings/Elision/Feature/ElisionFeatureTemplateNavigation/Navigation/Primary Navigation</description></item>
@@ -36,8 +33,6 @@ namespace Elision.Feature.Template.Navigation.SC.Integration
 	public partial struct Templates
     {
         /// <summary>
-
-
         /// <list type="table">
         ///     <item><term>Template ID:</term><description>{1CDE63DB-4F0A-467D-A334-DD7192864278}</description></item>
         ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Feature/ElisionFeatureTemplateNavigation/_Base/_NavigationLevels</description></item>
@@ -48,69 +43,45 @@ namespace Elision.Feature.Template.Navigation.SC.Integration
             public static readonly ID TemplateId = new ID("{1CDE63DB-4F0A-467D-A334-DD7192864278}");
             public const string Name = "_NavigationLevels";
 
-
             public struct FieldIds
             {
-
                 /// <summary>
-
-
                 /// <list type="table">
                 ///     <item><term>Field Type:</term><description>Checkbox</description></item>
                 ///     <item><term>Field ID:</term><description>{C8BA8AF6-FDB4-46FE-B0B4-1AE3B53FF24B}</description></item>
                 ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Feature/ElisionFeatureTemplateNavigation/_Base/_NavigationLevels/Navigation/IncludeTopLevel</description></item>
                 /// </list>
-
-
                 /// </summary>
                 public static readonly ID IncludeTopLevel = new ID("{C8BA8AF6-FDB4-46FE-B0B4-1AE3B53FF24B}");
-
                 /// <summary>
-
-
                 /// <list type="table">
                 ///     <item><term>Field Type:</term><description>Number</description></item>
                 ///     <item><term>Field ID:</term><description>{2636D1F7-1CB7-4B90-8A8D-3B11CB030C76}</description></item>
                 ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Feature/ElisionFeatureTemplateNavigation/_Base/_NavigationLevels/Navigation/NavigationLevels</description></item>
                 /// </list>
-
-
                 /// </summary>
                 public static readonly ID NavigationLevels = new ID("{2636D1F7-1CB7-4B90-8A8D-3B11CB030C76}");
-
             }
 
             public struct FieldNames
             {
-
                 /// <summary>
-
-
                 /// <list type="table">
                 ///     <item><term>Field Type:</term><description>Checkbox</description></item>
                 ///     <item><term>Field ID:</term><description>{C8BA8AF6-FDB4-46FE-B0B4-1AE3B53FF24B}</description></item>
                 ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Feature/ElisionFeatureTemplateNavigation/_Base/_NavigationLevels/Navigation/IncludeTopLevel</description></item>
                 /// </list>
-
-
                 /// </summary>
                 public const string IncludeTopLevel = "IncludeTopLevel";
-
                 /// <summary>
-
-
                 /// <list type="table">
                 ///     <item><term>Field Type:</term><description>Number</description></item>
                 ///     <item><term>Field ID:</term><description>{2636D1F7-1CB7-4B90-8A8D-3B11CB030C76}</description></item>
                 ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Feature/ElisionFeatureTemplateNavigation/_Base/_NavigationLevels/Navigation/NavigationLevels</description></item>
                 /// </list>
-
-
                 /// </summary>
                 public const string NavigationLevels = "NavigationLevels";
-
             }
-
 		}
     }
 }
@@ -119,8 +90,6 @@ namespace Elision.Feature.Template.Navigation.SC.Integration
 	public partial struct Templates
     {
         /// <summary>
-
-
         /// <list type="table">
         ///     <item><term>Template ID:</term><description>{3B5F863D-692E-41E2-A2CA-B027227A2C87}</description></item>
         ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Feature/ElisionFeatureTemplateNavigation/_Base/_Navigable</description></item>
@@ -131,69 +100,45 @@ namespace Elision.Feature.Template.Navigation.SC.Integration
             public static readonly ID TemplateId = new ID("{3B5F863D-692E-41E2-A2CA-B027227A2C87}");
             public const string Name = "_Navigable";
 
-
             public struct FieldIds
             {
-
                 /// <summary>
-
-
                 /// <list type="table">
                 ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
                 ///     <item><term>Field ID:</term><description>{9638B7BE-396E-4A34-B050-F3AB26826229}</description></item>
                 ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Feature/ElisionFeatureTemplateNavigation/_Base/_Navigable/Navigation/NavigationText</description></item>
                 /// </list>
-
-
                 /// </summary>
                 public static readonly ID NavigationText = new ID("{9638B7BE-396E-4A34-B050-F3AB26826229}");
-
                 /// <summary>
-
-
                 /// <list type="table">
                 ///     <item><term>Field Type:</term><description>Checkbox</description></item>
                 ///     <item><term>Field ID:</term><description>{20F9494E-0190-47A0-8A5B-E64F67E801B9}</description></item>
                 ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Feature/ElisionFeatureTemplateNavigation/_Base/_Navigable/Navigation/ShowInNavigation</description></item>
                 /// </list>
-
-
                 /// </summary>
                 public static readonly ID ShowInNavigation = new ID("{20F9494E-0190-47A0-8A5B-E64F67E801B9}");
-
             }
 
             public struct FieldNames
             {
-
                 /// <summary>
-
-
                 /// <list type="table">
                 ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
                 ///     <item><term>Field ID:</term><description>{9638B7BE-396E-4A34-B050-F3AB26826229}</description></item>
                 ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Feature/ElisionFeatureTemplateNavigation/_Base/_Navigable/Navigation/NavigationText</description></item>
                 /// </list>
-
-
                 /// </summary>
                 public const string NavigationText = "NavigationText";
-
                 /// <summary>
-
-
                 /// <list type="table">
                 ///     <item><term>Field Type:</term><description>Checkbox</description></item>
                 ///     <item><term>Field ID:</term><description>{20F9494E-0190-47A0-8A5B-E64F67E801B9}</description></item>
                 ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Feature/ElisionFeatureTemplateNavigation/_Base/_Navigable/Navigation/ShowInNavigation</description></item>
                 /// </list>
-
-
                 /// </summary>
                 public const string ShowInNavigation = "ShowInNavigation";
-
             }
-
 		}
     }
 }
@@ -202,8 +147,6 @@ namespace Elision.Feature.Template.Navigation.SC.Integration
 	public partial struct Templates
     {
         /// <summary>
-
-
         /// <list type="table">
         ///     <item><term>Template ID:</term><description>{62E29FF9-1428-42D4-B2F9-E83D92AEAB6B}</description></item>
         ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Feature/ElisionFeatureTemplateNavigation/Content/MenuFolder</description></item>
@@ -213,7 +156,6 @@ namespace Elision.Feature.Template.Navigation.SC.Integration
         {
             public static readonly ID TemplateId = new ID("{62E29FF9-1428-42D4-B2F9-E83D92AEAB6B}");
             public const string Name = "MenuFolder";
-
 
 		}
     }
@@ -225,8 +167,6 @@ namespace Elision.Feature.Template.Navigation.SC.Integration
         public partial struct Navigation
         {
             /// <summary>
-
-
             /// <list type="table">
             ///     <item><term>Rendering ID:</term><description>{6C79929B-3342-4952-B49D-F5FCABFA7D6C}</description></item>
             ///     <item><term>Path:</term><description>/sitecore/layout/Renderings/Elision/Feature/ElisionFeatureTemplateNavigation/Navigation/Breadcrumbs</description></item>
@@ -243,10 +183,7 @@ namespace Elision.Feature.Template.Navigation.SC.Integration
         public partial struct Navigation
         {
             /// <summary>
-
             /// The Secondary Navigation rendering.
-
-
             /// <list type="table">
             ///     <item><term>Rendering ID:</term><description>{BEC1FDD7-0523-4F68-A561-379522B964BB}</description></item>
             ///     <item><term>Path:</term><description>/sitecore/layout/Renderings/Elision/Feature/ElisionFeatureTemplateNavigation/Navigation/Secondary Navigation</description></item>
@@ -261,8 +198,6 @@ namespace Elision.Feature.Template.Navigation.SC.Integration
 	public partial struct Templates
     {
         /// <summary>
-
-
         /// <list type="table">
         ///     <item><term>Template ID:</term><description>{D661EDF4-40A8-4217-9EFA-31395ACB498E}</description></item>
         ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Feature/ElisionFeatureTemplateNavigation/Content/MenuLink</description></item>
@@ -273,43 +208,29 @@ namespace Elision.Feature.Template.Navigation.SC.Integration
             public static readonly ID TemplateId = new ID("{D661EDF4-40A8-4217-9EFA-31395ACB498E}");
             public const string Name = "MenuLink";
 
-
             public struct FieldIds
             {
-
                 /// <summary>
-
-
                 /// <list type="table">
                 ///     <item><term>Field Type:</term><description>General Link</description></item>
                 ///     <item><term>Field ID:</term><description>{D0F1890A-8739-4CFF-B38A-6883838FEE19}</description></item>
                 ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Feature/ElisionFeatureTemplateNavigation/Content/MenuLink/Navigation/Link</description></item>
                 /// </list>
-
-
                 /// </summary>
                 public static readonly ID Link = new ID("{D0F1890A-8739-4CFF-B38A-6883838FEE19}");
-
             }
 
             public struct FieldNames
             {
-
                 /// <summary>
-
-
                 /// <list type="table">
                 ///     <item><term>Field Type:</term><description>General Link</description></item>
                 ///     <item><term>Field ID:</term><description>{D0F1890A-8739-4CFF-B38A-6883838FEE19}</description></item>
                 ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Feature/ElisionFeatureTemplateNavigation/Content/MenuLink/Navigation/Link</description></item>
                 /// </list>
-
-
                 /// </summary>
                 public const string Link = "Link";
-
             }
-
 		}
     }
 }
