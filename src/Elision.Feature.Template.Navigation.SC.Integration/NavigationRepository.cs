@@ -142,7 +142,7 @@ namespace Elision.Feature.Template.Navigation.SC.Integration
 
         protected virtual NavigationItems<TNavItem> GetChildNavigationItems(Item parentItem, Item contextItem, int level, int maxLevel)
         {
-            if (maxLevel < 0 && (level > maxLevel || !parentItem.HasChildren))
+            if (maxLevel < 0 || (level > maxLevel || !parentItem.HasChildren))
                 return null;
 
             var childItems = parentItem.Children.Where(item => IncludeInNavigation(item))
