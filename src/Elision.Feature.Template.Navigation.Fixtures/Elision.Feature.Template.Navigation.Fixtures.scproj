@@ -91,31 +91,31 @@
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
       <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\layout\Renderings\Elision.item">
+    <SitecoreItem Include="sitecore\layout\Renderings\Feature.item">
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
       <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\layout\Renderings\Elision\Feature.item">
+    <SitecoreItem Include="sitecore\layout\Renderings\Feature\Elision.item">
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
       <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\layout\Renderings\Elision\Feature\ElisionFeatureTemplateNavigation.item">
+    <SitecoreItem Include="sitecore\layout\Renderings\Feature\Elision\ElisionFeatureTemplateNavigation.item">
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\layout\Renderings\Elision\Feature\ElisionFeatureTemplateNavigation\Navigation.item">
+    <SitecoreItem Include="sitecore\layout\Renderings\Feature\Elision\ElisionFeatureTemplateNavigation\Navigation.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\layout\Renderings\Elision\Feature\ElisionFeatureTemplateNavigation\Navigation\Breadcrumbs.item">
+    <SitecoreItem Include="sitecore\layout\Renderings\Feature\Elision\ElisionFeatureTemplateNavigation\Navigation\Breadcrumbs.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\layout\Renderings\Elision\Feature\ElisionFeatureTemplateNavigation\Navigation\Primary Navigation.item">
+    <SitecoreItem Include="sitecore\layout\Renderings\Feature\Elision\ElisionFeatureTemplateNavigation\Navigation\Primary Navigation.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\layout\Renderings\Elision\Feature\ElisionFeatureTemplateNavigation\Navigation\Secondary Navigation.item">
+    <SitecoreItem Include="sitecore\layout\Renderings\Feature\Elision\ElisionFeatureTemplateNavigation\Navigation\Secondary Navigation.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
@@ -123,83 +123,83 @@
       <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
       <ItemDeployment>DeployOnce</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Elision.item">
+    <SitecoreItem Include="sitecore\templates\Feature.item">
       <ItemDeployment>DeployOnce</ItemDeployment>
       <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Elision\Feature.item">
+    <SitecoreItem Include="sitecore\templates\Feature\Elision.item">
       <ItemDeployment>DeployOnce</ItemDeployment>
       <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Elision\Feature\ElisionFeatureTemplateNavigation.item">
+    <SitecoreItem Include="sitecore\templates\Feature\Elision\ElisionFeatureTemplateNavigation.item">
       <ItemDeployment>DeployOnce</ItemDeployment>
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Elision\Feature\ElisionFeatureTemplateNavigation\_Base.item">
+    <SitecoreItem Include="sitecore\templates\Feature\Elision\ElisionFeatureTemplateNavigation\_Base.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>DeployOnce</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Elision\Feature\ElisionFeatureTemplateNavigation\_Base\_Navigable.item">
+    <SitecoreItem Include="sitecore\templates\Feature\Elision\ElisionFeatureTemplateNavigation\_Base\_Navigable.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>DeployOnce</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Elision\Feature\ElisionFeatureTemplateNavigation\_Base\_Navigable\__Standard Values.item">
+    <SitecoreItem Include="sitecore\templates\Feature\Elision\ElisionFeatureTemplateNavigation\_Base\_Navigable\__Standard Values.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>DeployOnce</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Elision\Feature\ElisionFeatureTemplateNavigation\_Base\_Navigable\Navigation.item">
+    <SitecoreItem Include="sitecore\templates\Feature\Elision\ElisionFeatureTemplateNavigation\_Base\_Navigable\Navigation.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>DeployOnce</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Elision\Feature\ElisionFeatureTemplateNavigation\_Base\_Navigable\Navigation\NavigationText.item">
+    <SitecoreItem Include="sitecore\templates\Feature\Elision\ElisionFeatureTemplateNavigation\_Base\_Navigable\Navigation\NavigationText.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>DeployOnce</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Elision\Feature\ElisionFeatureTemplateNavigation\_Base\_Navigable\Navigation\ShowInNavigation.item">
+    <SitecoreItem Include="sitecore\templates\Feature\Elision\ElisionFeatureTemplateNavigation\_Base\_Navigable\Navigation\ShowInNavigation.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>DeployOnce</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Elision\Feature\ElisionFeatureTemplateNavigation\_Base\_NavigationLevels.item">
+    <SitecoreItem Include="sitecore\templates\Feature\Elision\ElisionFeatureTemplateNavigation\_Base\_NavigationLevels.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>DeployOnce</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Elision\Feature\ElisionFeatureTemplateNavigation\_Base\_NavigationLevels\__Standard Values.item">
+    <SitecoreItem Include="sitecore\templates\Feature\Elision\ElisionFeatureTemplateNavigation\_Base\_NavigationLevels\__Standard Values.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>DeployOnce</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Elision\Feature\ElisionFeatureTemplateNavigation\_Base\_NavigationLevels\Navigation.item">
+    <SitecoreItem Include="sitecore\templates\Feature\Elision\ElisionFeatureTemplateNavigation\_Base\_NavigationLevels\Navigation.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>DeployOnce</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Elision\Feature\ElisionFeatureTemplateNavigation\_Base\_NavigationLevels\Navigation\IncludeTopLevel.item">
+    <SitecoreItem Include="sitecore\templates\Feature\Elision\ElisionFeatureTemplateNavigation\_Base\_NavigationLevels\Navigation\IncludeTopLevel.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>DeployOnce</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Elision\Feature\ElisionFeatureTemplateNavigation\_Base\_NavigationLevels\Navigation\NavigationLevels.item">
+    <SitecoreItem Include="sitecore\templates\Feature\Elision\ElisionFeatureTemplateNavigation\_Base\_NavigationLevels\Navigation\NavigationLevels.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>DeployOnce</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Elision\Feature\ElisionFeatureTemplateNavigation\Content.item">
+    <SitecoreItem Include="sitecore\templates\Feature\Elision\ElisionFeatureTemplateNavigation\Content.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>DeployOnce</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Elision\Feature\ElisionFeatureTemplateNavigation\Content\MenuFolder.item">
+    <SitecoreItem Include="sitecore\templates\Feature\Elision\ElisionFeatureTemplateNavigation\Content\MenuFolder.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>DeployOnce</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Elision\Feature\ElisionFeatureTemplateNavigation\Content\MenuFolder\__Standard Values.item">
+    <SitecoreItem Include="sitecore\templates\Feature\Elision\ElisionFeatureTemplateNavigation\Content\MenuFolder\__Standard Values.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>DeployOnce</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Elision\Feature\ElisionFeatureTemplateNavigation\Content\MenuLink.item">
+    <SitecoreItem Include="sitecore\templates\Feature\Elision\ElisionFeatureTemplateNavigation\Content\MenuLink.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>DeployOnce</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Elision\Feature\ElisionFeatureTemplateNavigation\Content\MenuLink\Navigation.item">
+    <SitecoreItem Include="sitecore\templates\Feature\Elision\ElisionFeatureTemplateNavigation\Content\MenuLink\Navigation.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>DeployOnce</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Elision\Feature\ElisionFeatureTemplateNavigation\Content\MenuLink\Navigation\Link.item">
+    <SitecoreItem Include="sitecore\templates\Feature\Elision\ElisionFeatureTemplateNavigation\Content\MenuLink\Navigation\Link.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>DeployOnce</ItemDeployment>
     </SitecoreItem>
